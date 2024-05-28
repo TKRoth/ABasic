@@ -23,15 +23,30 @@ Let the program time*0.1 seconds wait. At this time yoe can't break the program.
 ### END
 Stop the program and return to the enviroment.
 
-### GOTO adress / jump label
-Jump to the given adress or to a jump label. With SELFLINE you can jump at the same line that now runs.
-***Use only jump labels or SELFLINE. If your adress not the begin a program line, ABasic crash.***
+### GCOLOR color{,mode}
+Set the color for graphic operations. With optional parameter mode it can be define a graphic mode. Without this parameter it will be set to 0.
+
+### GOTO address / jump label
+Jump to the given address or to a jump label. With SELFLINE you can jump at the same line that now runs.
+***Use only jump labels or SELFLINE. If your address not the begin a program line, ABasic crash.***
 
 ### HOME
 Set the text cursor at left top of the screen.
 
+### LOCATE X,Y{,CURSOR}
+Set the text cursor to the x/y-position. The left top position start with 1,1. Optional you can control the cursor. Values unequal zero activated the cursor. Zero deactivated the cursor.
+
 ### MODE mode
 Set the screen mode. To show the differnt modes view (https://github.com/AgonConsole8/agon-docs/blob/main/docs/vdp/Screen-Modes.md).
+
+### POKE adress,byte
+Writing a byte with 8 bit to the given address.
+
+### POKEI adress,integer
+Writing an integer with 24 bit to the given address.
+
+### POKEW adress,word
+Writing a word with 16 bit to the given address.
 
 ### PRINT {#channel,}parameter{;/,}{parameter}...
 Print a parameter at the given channel. If not channel given it will be print on the screen. With ';' you can print any parameter directly behind each other. ',' allows to print any parameter at the next tabulators (each 8 columns).
@@ -50,7 +65,7 @@ Leave the A(gon)Basic developer enviroment and returns to MOS.
 ### ASC(string)
 Get the first char in the string and result the ascii number. An empty string generate an error.
 
-###CHR$(ascii)
+### CHR$(ascii)
 Result a string with a character with the the given ascii number.
 
 ### DAY
@@ -92,14 +107,14 @@ Result the month from the internal RTC.
 ### NUMBER(string)
 Check if the string has a changeable number. Result TRUE if is it. Otherwise FALSE.
 
-### PEEK(adress)
-Read a byte with 8 bit from the given adress.
+### PEEK(address)
+Read a byte with 8 bit from the given address.
 
-### PEEKI(adress)
-Read a integer with 24 bit from given adress.
+### PEEKI(address)
+Read a integer with 24 bit from given address.
 
-### PEEKW(adress)
-Read a word with 16 bit from given adress.
+### PEEKW(address)
+Read a word with 16 bit from given address.
 
 ### PAPER color
 Set the backgrund color.
@@ -114,7 +129,7 @@ Result the vKey value if available. Otherwise it send zero.
 Result the second from the internal RTC.
 
 ### SELFLINE
-Result the adress of the line that run now.
+Result the address of the line that run now.
 
 ### STR$(number)
 Create a string with the number.
