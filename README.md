@@ -48,7 +48,7 @@ Writing an integer with 24 bit to the given address.
 ### POKEW adress,word
 Writing a word with 16 bit to the given address.
 
-### PRINT {#channel,}parameter{;/,}{parameter}...
+### PRINT / ? {#channel,}parameter{;/,}{parameter}...
 Print a parameter at the given channel. If not channel given it will be print on the screen. With ';' you can print any parameter directly behind each other. ',' allows to print any parameter at the next tabulators (each 8 columns).
 
 ### REM / '
