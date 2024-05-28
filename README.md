@@ -18,7 +18,7 @@ Clear the graphic display.
 Clear the text screen and set the text cursor at the left top of the screen.
 
 ### DELAY time
-Let the program time*0.1 seconds wait. At this time yoe can't break the program. AFTER and EVERY doeas not work.
+Let the program time*0.1 seconds wait. At this time you can't break the program. AFTER and EVERY does not work.
 
 ### END
 Stop the program and return to the enviroment.
