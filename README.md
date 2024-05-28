@@ -59,3 +59,58 @@ Reset the Agon computer and restart the MOS.
 
 ### QUIT
 Leave the A(gon)Basic developer enviroment and returns to MOS.
+
+
+## Functions
+
+
+### FALSE
+Send the false value = $000000.
+
+
+### FREE
+Result the free user RAM.
+
+
+### GETCOLORS
+Result the count of colors you can use in the actually screen mode.
+
+
+### GETMODE
+Result the actually screen mode.
+
+
+### GRAPHWIDH
+Result the width resolution of the graphic screen.
+
+
+### GRAPHHEIGHT
+Result the height resolution of the graphic screen.
+
+
+### PAPER color
+Set the backgrund color.
+
+
+### PEN color
+Set the text foreground color.
+
+
+### RAWKEY
+Result the vKey value if available. Otherwise it send zero.
+
+
+### SELFLINE
+Result the adress of the line that run now.
+
+
+### TEXTCOLS
+Result the maximen columns of the textscreen.
+
+
+### TEXTROWS
+Result the maximum rows of the thextscreen.
+
+
+### TRUE
+Send the true value = $FFFFFF.
