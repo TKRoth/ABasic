@@ -98,6 +98,9 @@ Result the hour from the internal RTC.
 ### LEN(string)
 Calculate the length of the string and result it.
 
+### LOWER$(string)
+Converts the string to lowercase.
+
 ### MINUTE
 Result the minute from the internal RTC.
 
@@ -121,6 +124,9 @@ Set the backgrund color.
 
 ### PEN color
 Set the text foreground color.
+
+### RANGE(value,minimum,maximum)
+Check whether the value is between the minimum and the maximum.
 
 ### RAWKEY
 Result the vKey value if available. Otherwise it send zero.
@@ -148,6 +154,9 @@ Result the value of the internal timer. But only 24 bit.
 
 ### TRUE
 Send the true value = $FFFFFF.
+
+### UPPER$(string)
+Converts the string to uppercase.
 
 ### VAL(string)
 Get the binary number from the string. The number must be the first in the string. If not changeable it result 0.
