@@ -33,11 +33,29 @@ Jump to the given address or to a jump label. With SELFLINE you can jump at the 
 ### HOME
 Set the text cursor at left top of the screen.
 
+### INK color,palette
+Set the color to a palette color from 0 to 63.
+
+### LINE x,y
+Draw a line to x,y.
+
 ### LOCATE X,Y{,CURSOR}
 Set the text cursor to the x/y-position. The left top position start with 1,1. Optional you can control the cursor. Values unequal zero activated the cursor. Zero deactivated the cursor.
 
 ### MODE mode
 Set the screen mode. To show the differnt modes view (https://github.com/AgonConsole8/agon-docs/blob/main/docs/vdp/Screen-Modes.md).
+
+### MOS command
+Call the given MOS command.
+
+### MOVE x,y
+Set the graphic cursor to x,y.
+
+### PIXELMODE state
+Activates the physical coordinate system when the state is TRUE. This has a resolution dependent from the mode. Here start the x/y-counting at left top. To deactivated the physical coordinate system the state must be false. 
+ 
+### PLOT x,y
+Plot a point at x,y.
 
 ### POKE adress,byte
 Writing a byte with 8 bit to the given address.
@@ -98,8 +116,14 @@ Result the hour from the internal RTC.
 ### LEN(string)
 Calculate the length of the string and result it.
 
+### LEFT$(string,size)
+Result size chars from the left of the string.
+
 ### LOWER$(string)
 Converts the string to lowercase.
+
+### MID$(string,start,length)
+Result string that a cut from start with length chars.
 
 ### MINUTE
 Result the minute from the internal RTC.
@@ -130,6 +154,9 @@ Check whether the value is between the minimum and the maximum.
 
 ### RAWKEY
 Result the vKey value if available. Otherwise it send zero.
+
+### RIGHT$(string,size)
+Result size chars from the right of the string.
 
 ### SECOND
 Result the second from the internal RTC.
