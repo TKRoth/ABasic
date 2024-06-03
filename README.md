@@ -8,6 +8,9 @@ To load and run ABasic type in MOS `LOAD ABASIC.BIN` and then `RUN`. You must be
 ### BEEP
 Makes a beep.
 
+### CHDIR / CD directory
+Change the actuelly directory. The new directory must be a string.
+
 ### CLEAR
 Erase all variables.
 
@@ -17,11 +20,20 @@ Clear the graphic display.
 ### CLS
 Clear the text screen and set the text cursor at the left top of the screen.
 
+### DEC variable
+Decrease the value of the given variable. The variable type must be a numeric.
+
 ### DELAY time
 Let the program time*0.1 seconds wait. At this time you can't break the program. AFTER and EVERY does not work.
 
 ### END
 Stop the program and return to the enviroment.
+
+### ERROR error
+Solves an error with given number. If the number greater then error exist it print 'Unknown error'.
+
+### EXPLICIT
+After this command all variables must declared with the DIM command.
 
 ### GCOLOR color{,mode}
 Set the color for graphic operations. With optional parameter mode it can be define a graphic mode. Without this parameter it will be set to 0.
@@ -33,14 +45,23 @@ Jump to the given address or to a jump label. With SELFLINE you can jump at the 
 ### HOME
 Set the text cursor at left top of the screen.
 
+### INC variable
+Increase the value of the given variable. The variable type must be a numeric.
+
 ### INK color,palette
 Set the color to a palette color from 0 to 63.
+
+### KILL file/directory
+Kill a file or a directory. The parameter must be a string.
 
 ### LINE x,y
 Draw a line to x,y.
 
 ### LOCATE X,Y{,CURSOR}
 Set the text cursor to the x/y-position. The left top position start with 1,1. Optional you can control the cursor. Values unequal zero activated the cursor. Zero deactivated the cursor.
+
+### MKDIR / MD directory
+Create a new directory. The directory must be a string.
 
 ### MODE mode
 Set the screen mode. To show the differnt modes view (https://github.com/AgonConsole8/agon-docs/blob/main/docs/vdp/Screen-Modes.md).
@@ -50,6 +71,12 @@ Call the given MOS command.
 
 ### MOVE x,y
 Set the graphic cursor to x,y.
+
+### ORIGIN x,y
+Set a new zero point of the graphic screen.
+
+### PALRGB color,red,gree,blue
+Set the color with the given RGB color. Any ground color can be 0 to 255.
 
 ### PIXELMODE state
 Activates the physical coordinate system when the state is TRUE. This has a resolution dependent from the mode. Here start the x/y-counting at left top. To deactivated the physical coordinate system the state must be false. 
@@ -74,6 +101,9 @@ Define the rest of the line as comment. The interpreter ignore this text and con
 
 ### RESET
 Reset the Agon computer and restart the MOS.
+
+### SWAP variable 1,variable 2
+Swap the values of the variables. Both variables must be the same type.
 
 ### QUIT
 Leave the A(gon)Basic developer enviroment and returns to MOS.
@@ -113,6 +143,9 @@ Result the maximum adress of the user RAM.
 ### HOUR
 Result the hour from the internal RTC.
 
+### INSTR(string,ascii)
+Search the ascii char in the string and result the position if found. If not found the function results 0.
+
 ### LEN(string)
 Calculate the length of the string and result it.
 
@@ -121,6 +154,9 @@ Result size chars from the left of the string.
 
 ### LOWER$(string)
 Converts the string to lowercase.
+
+### LTRIM$(string)
+Erase the spaces from left of the string.
 
 ### MID$(string,start,length)
 Result string that a cut from start with length chars.
@@ -158,6 +194,9 @@ Result the vKey value if available. Otherwise it send zero.
 ### RIGHT$(string,size)
 Result size chars from the right of the string.
 
+### RTRIM$(string)
+Erase the spaces from right of the string.
+
 ### SECOND
 Result the second from the internal RTC.
 
@@ -178,6 +217,9 @@ Result the maximum rows of the thextscreen.
 
 ### TIMER
 Result the value of the internal timer. But only 24 bit.
+
+### TRIM$(string)
+Erase the spaces from both sides from the string.
 
 ### TRUE
 Send the true value = $FFFFFF.
