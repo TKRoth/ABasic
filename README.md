@@ -110,6 +110,9 @@ Leave the A(gon)Basic developer enviroment and returns to MOS.
 
 ## Functions
 
+### @variable
+Is the short version from the VARPTR function.
+
 ### ASC(string)
 Get the first char in the string and result the ascii number. An empty string generate an error.
 
@@ -229,6 +232,9 @@ Converts the string to uppercase.
 
 ### VAL(string)
 Get the binary number from the string. The number must be the first in the string. If not changeable it result 0.
+
+### VARPTR(variable)
+Result the adress of the data area from the variable.
 
 ### XPOS
 Result the position from the x position of the text cursor.
