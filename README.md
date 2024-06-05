@@ -173,6 +173,9 @@ Result the minute from the internal RTC.
 ### MONTH
 Result the month from the internal RTC.
 
+### NOT(value)
+Invert the value.
+
 ### NUMBER(string)
 Check if the string has a changeable number. Result TRUE if is it. Otherwise FALSE.
 
@@ -267,3 +270,12 @@ Test if value 1 greater or equal value 2. Then it results TRUE otherweise FALSE.
 
 ### value 1<=value 2 / value 1=<value 2
 Test if value 1 less or equal value 2. Then it results TRUE otherwise FALSE.
+
+### value 1 AND value 2
+Combine both values with logical AND.
+
+### value 1 OR value 2
+Combine both values with logical OR.
+
+### value 1 XOR value 2
+Combine both value with logical exclusive OR.
