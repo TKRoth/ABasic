@@ -26,6 +26,9 @@ Decrease the value of the given variable. The variable type must be a numeric.
 ### DELAY time
 Let the program time*0.1 seconds wait. At this time you can't break the program. AFTER and EVERY does not work.
 
+### DIR directory / CAT directory
+List the directory that be in the given string.
+
 ### END
 Stop the program and return to the enviroment.
 
@@ -244,3 +247,23 @@ Return the year from the internal RTC.
 
 ### YPOS
 Result the position from the y position of the text cursor.
+
+## Operands
+
+### value 1=value 2
+Test if both parameter are equal. Then it results TRUE otherwise FALSE.
+
+### value 1<>value 2 / value 1><value 2
+Test if both parameter are unequal. Then it results TRUE otherwise FALSE.
+
+### value 1>value 2
+Test if value 1 greater value 2. Then it results TRUE otherwise FALSE.
+
+### value 1<value 2
+Test if value 1 less value 2. Then it results TRUE otherwise FALSE.
+
+### value 1>=value 2 / value 1=>value 2
+Test if value 1 greater or equal value 2. Then it results TRUE otherweise FALSE.
+
+### value 1<=value 2 / value 1=<value 2
+Test if value 1 less or equal value 2. Then it results TRUE otherwise FALSE.
