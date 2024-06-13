@@ -11,6 +11,9 @@ Makes a beep.
 ### CHDIR / CD directory
 Change the actuelly directory. The new directory must be a string.
 
+### CIRLE x radius,y radius
+Draw a circle with x and y radius.
+
 ### CLEAR
 Erase all variables.
 
@@ -19,6 +22,9 @@ Clear the graphic display.
 
 ### CLS
 Clear the text screen and set the text cursor at the left top of the screen.
+
+### CURSOR state
+Turn on the cursor if state unequal zero. Otherwise the cursor will be hide.
 
 ### DEC variable
 Decrease the value of the given variable. The variable type must be a numeric.
@@ -29,6 +35,9 @@ Let the program time*0.1 seconds wait. At this time you can't break the program.
 ### DIR directory / CAT directory
 List the directory that be in the given string.
 
+### DISC x radius,y radius
+Draw a filled circle with x and y radius in the seted color.
+
 ### END
 Stop the program and return to the enviroment.
 
@@ -38,15 +47,21 @@ Solves an error with given number. If the number greater then error exist it pri
 ### EXPLICIT
 After this command all variables must declared with the DIM command.
 
-### GCOLOR color{,mode}
+### GCOLOR / GCOL color{,mode}
 Set the color for graphic operations. With optional parameter mode it can be define a graphic mode. Without this parameter it will be set to 0.
 
 ### GOTO address / jump label
 Jump to the given address or to a jump label. With SELFLINE you can jump at the same line that now runs.
 ***Use only jump labels or SELFLINE. If your address not the begin a program line, ABasic crash.***
 
+### GPRINT / GP parameter{;/,}{parameter}...
+Print a parameter at the graphik position with seted graphik color. With ';' you can print any parameter directly behind each other. ',' allows to print any parameter at the next tabulators (each 8 columns).
+
 ### HOME
 Set the text cursor at left top of the screen.
+
+### IF condition THEN true commands {ELSE false commands}
+Execute the true commands if the condition unequal zero. If the conditional zero the ELSE part will be execute.
 
 ### INC variable
 Increase the value of the given variable. The variable type must be a numeric.
@@ -60,8 +75,8 @@ Kill a file or a directory. The parameter must be a string.
 ### LINE x,y
 Draw a line to x,y.
 
-### LOCATE X,Y{,CURSOR}
-Set the text cursor to the x/y-position. The left top position start with 1,1. Optional you can control the cursor. Values unequal zero activated the cursor. Zero deactivated the cursor.
+### LOCATE X,Y
+Set the text cursor to the x/y-position. The left top position start with 1,1.
 
 ### MKDIR / MD directory
 Create a new directory. The directory must be a string.
@@ -99,6 +114,9 @@ Writing a word with 16 bit to the given address.
 ### PRINT / ? {#channel,}parameter{;/,}{parameter}...
 Print a parameter at the given channel. If not channel given it will be print on the screen. With ';' you can print any parameter directly behind each other. ',' allows to print any parameter at the next tabulators (each 8 columns).
 
+### RECTANGLE / RECT width,height
+Draw a filled rectangle with size of width and height in the seted color.
+
 ### REM / '
 Define the rest of the line as comment. The interpreter ignore this text and continue with next line.
 
@@ -107,6 +125,9 @@ Reset the Agon computer and restart the MOS.
 
 ### SWAP variable 1,variable 2
 Swap the values of the variables. Both variables must be the same type.
+
+### TRIANGLE width,height
+Draw a filled triangle with width and height in the seted color.
 
 ### QUIT
 Leave the A(gon)Basic developer enviroment and returns to MOS.
@@ -118,6 +139,9 @@ Is the short version from the VARPTR function.
 
 ### ASC(string)
 Get the first char in the string and result the ascii number. An empty string generate an error.
+
+### BIN$(number)
+Result a string with the binary value of the given nummber.
 
 ### CHR$(ascii)
 Result a string with a character with the the given ascii number.
@@ -142,6 +166,9 @@ Result the width resolution of the graphic screen.
 
 ### GRAPHHEIGHT
 Result the height resolution of the graphic screen.
+
+### HEX$(number)
+Result a string with the hexadezimal value of the given nummber.
 
 ### HIMEM
 Result the maximum adress of the user RAM.
@@ -276,6 +303,12 @@ Combine both values with logical AND.
 
 ### value 1 OR value 2
 Combine both values with logical OR.
+
+### value 1 SHL value 2
+Shift the value 1 value 2 bits to left.
+
+### value 1 SHR value 2
+Shift the value 1 value 2 bits to right.
 
 ### value 1 XOR value 2
 Combine both value with logical exclusive OR.
