@@ -3,6 +3,10 @@ A(gon)Basic is a Basic interpreter for develop und run basic programs in my own 
 
 To load and run ABasic type in MOS `LOAD ABASIC.BIN` and then `RUN`. You must be in the directory where your ABasic is.
 
+> [!NOTE]
+***ABasic at time is still in work. Some functions are still being planned and have no function yet.***
+
+
 ## The menu structure
 
 - File
