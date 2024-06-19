@@ -1,4 +1,4 @@
-## Commands
+# Commands
 
 ### BEEP
 Makes a beep.
