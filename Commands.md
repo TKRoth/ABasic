@@ -120,7 +120,7 @@ Create a new directory. The directory must be a string.
 
 ### `MODE mode`
 
-Set the screen mode. To show the differnt modes view (https://github.com/AgonConsole8/agon-docs/blob/main/docs/vdp/Screen-Modes.md).
+Set the screen mode. To show the differnt modes view [Screen modes](https://github.com/AgonConsole8/agon-docs/blob/main/docs/vdp/Screen-Modes.md).
 
 ### `MOS command`
 
