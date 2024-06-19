@@ -58,14 +58,10 @@ Any menu entrys have shortcuts. That allows fast execute the function.
 |Keys      |Menu              |
 |----------|------------------|
 |`[F1]`|Show help|
-
-`[F2]` Load
-
-`[F3]` Save
-
-`[F4]` Breakpoint
-
-`[F5]` Run
+|`[F2]`|Load|
+|`[F3]`|Save|
+|`[F4]`|Breakpoint|
+|`[F5]`|Run|
 
 `[F9]` Labels/SUBs/FUNCs
 
