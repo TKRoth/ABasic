@@ -1,91 +1,112 @@
 # Functions
 
-### @variable
+## `@variable`
+
 Is the short version from the VARPTR function.
 
-### ASC(string)
+## `ASC(string)`
+
 Get the first char in the string and result the ascii number. An empty string generate an error.
 
-### BIN$(number)
+## `BIN$(number)`
+
 Result a string with the binary value of the given nummber.
 
-### CHR$(ascii)
+## `CHR$(ascii)`
+
 Result a string with a character with the the given ascii number.
 
-### DAY
+## `DAY`
+
 Result the day from the internel RTC.
 
-### FALSE
+## `FALSE`
+
 Send the false value = $000000.
 
-### FREE
+## `FREE`
+
 Result the free user RAM.
 
-### GETCOLORS
+## `GETCOLORS`
+
 Result the count of colors you can use in the actually screen mode.
 
-### GETMODE
+## `GETMODE`
+
 Result the actually screen mode.
 
-### GRAPHWIDH
+## `GRAPHWIDH`
+
 Result the width resolution of the graphic screen.
 
-### GRAPHHEIGHT
+## `GRAPHHEIGHT`
+
 Result the height resolution of the graphic screen.
 
-### HEX$(number)
+## `HEX$(number)`
+
 Result a string with the hexadezimal value of the given nummber.
 
-### HIMEM
+## `HIMEM`
+
 Result the maximum adress of the user RAM.
 
-### HOUR
+## `HOUR`
+
 Result the hour from the internal RTC.
 
-### INSTR(string,ascii)
+## `INSTR(string,ascii)`
+
 Search the ascii char in the string and result the position if found. If not found the function results 0.
 
-### LEN(string)
+## `LEN(string)`
+
 Calculate the length of the string and result it.
 
-### LEFT$(string,size)
+## `LEFT$(string,size)`
+
 Result size chars from the left of the string.
 
-### LOWER$(string)
+## `LOWER$(string)`
+
 Converts the string to lowercase.
 
-### LTRIM$(string)
+## `LTRIM$(string)`
+
 Erase the spaces from left of the string.
 
-### MID$(string,start,length)
+## `MID$(string,start,length)`
+
 Result string that a cut from start with length chars.
 
-### MINUTE
+## `MINUTE`
+
 Result the minute from the internal RTC.
 
-### MONTH
+## `MONTH`
+
 Result the month from the internal RTC.
 
-### NOT(value)
+## `NOT(value)`
+
 Invert the value.
 
-### NUMBER(string)
+## `NUMBER(string)`
+
 Check if the string has a changeable number. Result TRUE if is it. Otherwise FALSE.
 
-### PEEK(address)
+## `PEEK(address)`
+
 Read a byte with 8 bit from the given address.
 
-### PEEKI(address)
+## `PEEKI(address)`
+
 Read a integer with 24 bit from given address.
 
-### PEEKW(address)
+## `PEEKW(address)`
+
 Read a word with 16 bit from given address.
-
-### PAPER color
-Set the backgrund color.
-
-### PEN color
-Set the text foreground color.
 
 ### RANGE(value,minimum,maximum)
 Check whether the value is between the minimum and the maximum.
