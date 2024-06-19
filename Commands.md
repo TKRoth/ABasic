@@ -1,6 +1,7 @@
 # Commands
 
-`BEEP`
+`##BEEP`
+
 Makes a beep.
 
 ### CHDIR / CD directory
