@@ -55,8 +55,8 @@ To load and run ABasic type in MOS `LOAD ABASIC.BIN` and then `RUN`. You must be
 
 Any menu entrys have shortcuts. That allows fast execute the function.
 
-|Keys      |Menu              |
-|----------|------------------|
+|**Keys**|**Menu**|
+|--------|--------|
 |`[F1]`|Show help|
 |`[F2]`|Load|
 |`[F3]`|Save|
