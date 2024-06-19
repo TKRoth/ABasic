@@ -55,19 +55,49 @@ To load and run ABasic type in MOS `LOAD ABASIC.BIN` and then `RUN`. You must be
 
 Any menu entrys have shortcuts. That allows fast execute the function.
 
-`[F1]`        Show help
+`[F1]` Show help
 
-`[F2]`        Load
+`[F2]` Load
 
-`[F3]`        Save
+`[F3]` Save
 
+`[F4]` Breakpoint
+
+`[F5]` Run
+
+`[F9]` Labels/SUBs/FUNCs
+
+`[F11]` Help for
+
+`[F12]` Change colors
 
 `[CTRL]+[A]` Save as
 
+`[CTRL]+[B]` Start mark
+
+`[CTRL]+[C]` Copy
+
+`[CTRL]+[E]` End mark
+
+`[CTRL]+[F]` Find
+
 `[CTRL]+[I]` Directory
+
+`[CTRL]+[K]` Cut
+
+`[CTRL]+[N]` Number changer
+
+`[CTRL]+[P]` Print
 
 `[CTRL]+[Q]` Quit ABasic
 
+`[CTRL]+[S]` Exchange
+
+`[CTRL]+[U]` Paste
+
+`[CTRL]+[X]` Delete line
+
+`[CTRL]+[V]` Insert line
 
 ## Statements
 
