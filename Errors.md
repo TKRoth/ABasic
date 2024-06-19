@@ -1,5 +1,9 @@
 # Errors
 
+Here are the error messages that are shown when an error occurs in the program.
+
+You can trigger the corresponding error yourself using the ERROR command.
+
 |**Error**|**Meaning**|
 |---------|-----------|
 |Error 1: Syntax error|It is an type error in the program|
