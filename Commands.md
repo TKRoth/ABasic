@@ -141,6 +141,14 @@ Set a new zero point of the graphic screen.
 
 ## `PALRGB color,red,gree,blue`
 
+## `PAPER color`
+
+Set the backgrund color.
+
+## `PEN color`
+
+Set the text foreground color.
+
 Set the color with the given RGB color. Any ground color can be 0 to 255.
 
 ## `PIXELMODE state`
