@@ -5,8 +5,8 @@ To load and run ABasic type in MOS `LOAD ABASIC.BIN` and then `RUN`. You must be
 
 ABasic has an extensive range of commands. You can view these in the files below.
 
-[Commands](ABasic/Commands.md)
+[Commands](/Commands.md)
 
-[Functions](ABasic/Functions.md)
+[Functions](/Functions.md)
 
-[Operands](ABasic/Operands)
+[Operands](/Operands.md)
