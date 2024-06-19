@@ -1,4 +1,4 @@
-## Functions
+# Functions
 
 ### @variable
 Is the short version from the VARPTR function.
