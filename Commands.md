@@ -1,10 +1,12 @@
 # Commands
 
-`##BEEP`
+`BEEP`
 
 Makes a beep.
 
-### CHDIR / CD directory
+
+`CHDIR / CD directory`
+
 Change the actuelly directory. The new directory must be a string.
 
 ### CIRLE x radius,y radius
