@@ -1,4 +1,4 @@
-## Operands
+# Operands
 
 ### value 1=value 2
 Test if both parameter are equal. Then it results TRUE otherwise FALSE.
