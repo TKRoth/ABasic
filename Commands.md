@@ -1,6 +1,6 @@
 # Commands
 
-### `BEEP`
+## `BEEP`
 
 Makes a beep.
 
