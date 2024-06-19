@@ -14,11 +14,48 @@ To load and run ABasic type in MOS `LOAD ABASIC.BIN` and then `RUN`. You must be
   - Save ascii: Save a basic program as a text file
   - Quit ABasic: Exit ABasic
 
+- Edit
+  - Start mark: Set the start of edit marker
+  - End mark: Set the end of edit marker
+  - Copy: Copy the marked lines to the clipboard
+  - Cut: Cut of the marked lines and save they in clipboard
+  - Paste: Insert the clipboard in editor
+  - Insert file: Insert a basic file in the editor
+  - Find: Search a word in editor
+  - Excanche: Exchange one or more words in the editor
+  - Printer setup: Set some parameter for the printer
+  - Print: Print the actually program
+  - Jump to top: Jump to the first line in the editor
+  - Jump to end: Jump to the end line in the editor
+  - Cut empty lines: Erase all empty lines from the program
+  - Delete line: Erase the actually programm line
+  - Insert line: Insert a empty line in the program. Lines after this line will be scroll down
+
 - Execute
   - Run: Run the actually program in editor
   - Breakpoint: Stop the running program at marked line
   - Labels/SUBs/FUNCs: Show then labels, SUBs and FUNCs in the program.
 
+- Tools
+  - Options: Open a window to change some ABasic parameter
+  - Colors: (Re)define the color sheme
+  - Change colors: Switch to next color sheme
+  - Number changer: Show a tool to convert numbers in decimal, hexadecimal or binary
+
+- Help
+  - Show help: Open the help window
+  - Help for: Open the help window and search for the entry where the cursor is
+  - Information: Show the program information
+
+### Shortcuts
+
+Any menu entrys have shortcuts. That allows fast execute the function.
+
+'[F1]' Show help
+'[F2]' Load
+*[F3]' Save
+
+## Statements
 
 ABasic has an extensive range of commands. You can view these in the files below.
 
