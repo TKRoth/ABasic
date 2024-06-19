@@ -47,8 +47,17 @@ Solves an error with given number. If the number greater then error exist it pri
 ### EXPLICIT
 After this command all variables must declared with the DIM command.
 
+### FOR variable=start TO end {STEP size}
+Open a counter loop. The specified variable receives the counter value from start to end. The step size can be change with the optional STEP command. Normally it's 1. The FOR command must be close with the NEXT statement.
+
+### FOREVER
+Close an opening REPEAT loop and let execute the commands within it over and over again.
+
 ### GCOLOR / GCOL color{,mode}
 Set the color for graphic operations. With optional parameter mode it can be define a graphic mode. Without this parameter it will be set to 0.
+
+### GOSUB adress / jump label
+Calls a subroutine at the adress or at the jump label. You can leave the subroutine with RETURN command.
 
 ### GOTO address / jump label
 Jump to the given address or to a jump label. With SELFLINE you can jump at the same line that now runs.
@@ -120,8 +129,14 @@ Draw a filled rectangle with size of width and height in the seted color.
 ### REM / '
 Define the rest of the line as comment. The interpreter ignore this text and continue with next line.
 
+### REPEAT
+Open a loop. If the loop closed by FOREVER the loop will run over and over again while not BREAK or LEAVE command executes. UNTIL let the loop run until the condition are true.
+
 ### RESET
 Reset the Agon computer and restart the MOS.
+
+### RETURN
+Leave a subroutine and go to after the calling GOSUB command.
 
 ### SWAP variable 1,variable 2
 Swap the values of the variables. Both variables must be the same type.
@@ -303,6 +318,12 @@ Combine both values with logical AND.
 
 ### value 1 OR value 2
 Combine both values with logical OR.
+
+### value 1 ROL value 2
+Rotate the value 1 value 2 bits to left.
+
+### value 1 ROR value 2
+Rotate the value 1 value 1 bits to right.
 
 ### value 1 SHL value 2
 Shift the value 1 value 2 bits to left.
