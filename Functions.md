@@ -108,59 +108,78 @@ Read a integer with 24 bit from given address.
 
 Read a word with 16 bit from given address.
 
-### RANGE(value,minimum,maximum)
+## `RANGE(value,minimum,maximum)`
+
 Check whether the value is between the minimum and the maximum.
 
-### RAWKEY
+## `RAWKEY`
+
 Result the vKey value if available. Otherwise it send zero.
 
-### RIGHT$(string,size)
+## `RIGHT$(string,size)`
+
 Result size chars from the right of the string.
 
-### RTRIM$(string)
+## `RTRIM$(string)`
+
 Erase the spaces from right of the string.
 
-### SECOND
+## `SECOND`
+
 Result the second from the internal RTC.
 
-### SELFLINE
+## `SELFLINE`
+
 Result the address of the line that run now.
 
-### STR$(number)
+## `STR$(number)`
+
 Create a string with the number.
 
-### STRING$(count,substring)
+## `STRING$(count,substring)`
+
 Create a string that has count times of the substring.
 
-### TEXTCOLS
+## `TEXTCOLS`
+
 Result the maximen columns of the textscreen.
 
-### TEXTROWS
+## `TEXTROWS`
+
 Result the maximum rows of the thextscreen.
 
-### TIMER
+## `TIMER`
+
 Result the value of the internal timer. But only 24 bit.
 
-### TRIM$(string)
+## `TRIM$(string)`
+
 Erase the spaces from both sides from the string.
 
-### TRUE
+## `TRUE`
+
 Send the true value = $FFFFFF.
 
-### UPPER$(string)
+## `UPPER$(string)`
+
 Converts the string to uppercase.
 
-### VAL(string)
+## `VAL(string)`
+
 Get the binary number from the string. The number must be the first in the string. If not changeable it result 0.
 
-### VARPTR(variable)
+## `VARPTR(variable)`
+
 Result the adress of the data area from the variable.
 
-### XPOS
+## `XPOS`
+
 Result the position from the x position of the text cursor.
 
-### YEAR
+## `YEAR`
+
 Return the year from the internal RTC.
 
-### YPOS
+## `YPOS`
+
 Result the position from the y position of the text cursor.
