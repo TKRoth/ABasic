@@ -125,7 +125,8 @@ Set the screen mode. To show the differnt modes view [Screen modes](https://gith
 ## `MOS command`
 
 Call the given MOS command.
-Example for the MOS command
+
+Example for the MOS command:
 ```
 MOS "DIR"
 ```
