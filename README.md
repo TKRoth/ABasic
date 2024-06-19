@@ -10,3 +10,5 @@ ABasic has an extensive range of commands. You can view these in the files below
 [Functions](/Functions.md)
 
 [Operands](/Operands.md)
+
+[Errors](/Errors.md)
