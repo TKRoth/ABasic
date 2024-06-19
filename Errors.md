@@ -1,6 +1,7 @@
 # Errors
 
 |**Error**|**Meaning**|
+|---------|-----------|
 |Error 1: Syntax error|It is an type error in the program.|
 
 ### Error 2: Subscript out of range
