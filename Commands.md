@@ -54,16 +54,12 @@ Set the color for graphic operations. With optional parameter mode it can be def
 ### GOSUB adress / jump label
 Calls a subroutine at the adress or at the jump label. You can leave the subroutine with RETURN command.
 
-[!WARNING]
-
-Use only jump labels or SELFLINE. If your address not the begin a program line, ABasic crash.
+***Use only jump labels or SELFLINE. If your address not the begin a program line, ABasic crash.***
 
 ### GOTO address / jump label
 Jump to the given address or to a jump label. With SELFLINE you can jump at the same line that now runs.
 
-[!WARNING]
-
-Use only jump labels or SELFLINE. If your address not the begin a program line, ABasic crash.
+***Use only jump labels or SELFLINE. If your address not the begin a program line, ABasic crash.***
 
 ### GPRINT / GP parameter{;/,}{parameter}...
 Print a parameter at the graphik position with seted graphik color. With ';' you can print any parameter directly behind each other. ',' allows to print any parameter at the next tabulators (each 8 columns).
