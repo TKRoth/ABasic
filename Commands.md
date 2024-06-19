@@ -126,9 +126,9 @@ Set the screen mode. To show the differnt modes view [Screen modes](https://gith
 
 Call the given MOS command.
 Example for the MOS command
-...
+```
 MOS "DIR"
-...
+```
 
 ## `MOVE x,y`
 
