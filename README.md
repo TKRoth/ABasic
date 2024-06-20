@@ -62,6 +62,8 @@ Any menu entrys have shortcuts. That allows fast execute the function.
 |`[F3]`|Save|
 |`[F4]`|Breakpoint|
 |`[F5]`|Run|
+|`[F6]`|Load ascii|
+|`[F7]`|Save ascii|
 |`[F9]`|Labels/SUBs/FUNCs|
 |`[F11]`|Help for|
 |`[F12]`|Change colors|
