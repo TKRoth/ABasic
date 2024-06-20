@@ -206,3 +206,7 @@ Draw a filled triangle with width and height in the seted color.
 ## `QUIT`
 
 Leave the A(gon)Basic developer enviroment and returns to MOS.
+
+## `VDU value{,/;}{value}...`
+
+Send one or more values to the VDP. If a 16 bit value is required, a ';' must be added.
