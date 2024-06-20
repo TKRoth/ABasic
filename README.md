@@ -68,9 +68,10 @@ Any menu entrys have shortcuts. That allows fast execute the function.
 |`[CTRL]+[A]`|Save as|
 |`[CTRL]+[B]`|Start mark|
 |`[CTRL]+[C]`|Copy|
+|`[CTRL]+[D]`|Directory|
 |`[CTRL]+[E]`|End mark|
 |`[CTRL]+[F]`|Find|
-|`[CTRL]+[I]`|Directory|
+|`[CTRL]+[I]`|Insert Line|
 |`[CTRL]+[K]`|Cut|
 |`[CTRL]+[N]`|Number changer|
 |`[CTRL]+[P]`|Print|
@@ -78,7 +79,6 @@ Any menu entrys have shortcuts. That allows fast execute the function.
 |`[CTRL]+[S]`|Exchange|
 |`[CTRL]+[U]`|Paste|
 |`[CTRL]+[X]`|Delete line|
-|`[CTRL]+[V]`|Insert line|
 
 ## Statements
 
