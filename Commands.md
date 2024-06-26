@@ -195,6 +195,10 @@ Reset the Agon computer and restart the MOS.
 
 Leave a subroutine and go to after the calling GOSUB command.
 
+## `STRLEN length`
+
+Set the standard length that reserve when a string was created new. The standard length at start a program is 20.
+
 ## `SWAP variable 1,variable 2`
 
 Swap the values of the variables. Both variables must be the same type.
@@ -202,6 +206,10 @@ Swap the values of the variables. Both variables must be the same type.
 ## `TRIANGLE width,height`
 
 Draw a filled triangle with width and height in the seted color.
+
+## `UNTIL condition`
+
+The REPEAT ... UNTIL loop will be execute until the condition is TRUE.
 
 ## `QUIT`
 
