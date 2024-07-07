@@ -99,11 +99,11 @@ ABasic has an extensive range of commands. You can view these in the files below
 
 A(gon)Basic uses any memory areas. In the follow table you can see which areas are exist:
 
-|**Name**|**Function**|
-|--------|------------|
-| ABasic.bin | A(gon)Basic itself |
-| Jumps | Jump data for labels, procedures and functions |
-| Variables | Data or refernce for variables |
-| Heap | Free memory are reserved for heap data |
-| Call | Call stack for nested loops |
-| Argument | Stak for parameters and evalute formula |
+|**Adress**|**Name**|**Function**|
+|----------|--------|------------|
+| &40000 | ABasic.bin | A(gon)Basic itself |
+| Varying | Jumps | Jump data for labels, procedures and functions |
+| Varying | Variables | Data or refernce for variables |
+| Varying | Heap | Free memory are reserved for heap data |
+| &AEC00 | Call | Call stack for nested loops |
+| &AF000 | Argument | Stak for parameters and evalute formula |
