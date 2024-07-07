@@ -105,5 +105,5 @@ A(gon)Basic uses any memory areas. In the follow table you can see which areas a
 | Varying | Jumps | Jump data for labels, procedures and functions |
 | Varying | Variables | Data or refernce for variables |
 | Varying | Heap | Free memory are reserved for heap data |
-| &AEC00 | Call | Call stack for nested loops or subroutines |
+| &AEC00 | Call | Call stack for nested loops and subroutines |
 | &AF000 | Argument | Stak for parameters and evalute formula |
