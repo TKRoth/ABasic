@@ -103,7 +103,7 @@ A(gon)Basic uses any memory areas. In the follow table you can see which areas a
 |----------|--------|------------|
 | &40000 | ABasic.bin | A(gon)Basic itself |
 | Varying | Jumps | Jump data for labels, procedures and functions |
-| Varying | Variables | Data or refernce for variables |
+| Varying | Variables | Data or reference for variables |
 | Varying | Heap | Free memory are reserved for heap data |
 | &AEC00 | Call | Call stack for nested loops and subroutines |
-| &AF000 | Argument | Stak for parameters and evalute formula |
+| &AF000 | Argument | Stack for parameters and evalute formula |
