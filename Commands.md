@@ -28,6 +28,10 @@ Clear the text screen and set the text cursor at the left top of the screen.
 
 Turn on the cursor if state unequal zero. Otherwise the cursor will be hide.
 
+## ´DATA parameter{,parametr}...´
+
+Declares the subsequent data readable for READ. If the DATA command execute this line where ignored.
+
 ## `DEC variable`
 
 Decrease the value of the given variable. The variable type must be a numeric.
@@ -175,6 +179,10 @@ Writing a word with 16 bit to the given address.
 
 Print a parameter at the given channel. If not channel given it will be print on the screen. With ';' you can print any parameter directly behind each other. ',' allows to print any parameter at the next tabulators (each 8 columns).
 
+## ´READ variable{,variable}...´
+
+Read a value from a DATA parameter. The variable type and the type in DATA must be the same.
+
 ## `RECTANGLE / RECT width,height`
 
 Draw a filled rectangle with size of width and height in the seted color.
@@ -190,6 +198,10 @@ Open a loop. If the loop closed by FOREVER the loop will run over and over again
 ## `RESET`
 
 Reset the Agon computer and restart the MOS.
+
+## ´RESTORE label´
+
+Search the DATA after the given label. If label 0 then start the search from begin of the program.
 
 ## `RETURN`
 
@@ -218,3 +230,7 @@ Leave the A(gon)Basic developer enviroment and returns to MOS.
 ## `VDU value{,/;}{value}...`
 
 Send one or more values to the VDP. If a 16 bit value is required, a ';' must be added.
+
+## ´WAITKAY´
+
+Waits for a key press.
