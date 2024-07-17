@@ -118,6 +118,10 @@ Draw a line to x,y.
 
 Set the text cursor to the x/y-position. The left top position start with 1,1.
 
+## `MAXLEN length`
+
+Set the standard length that reserve when a string was created new. The standard length at start a program is 20.
+
 ## `MKDIR / MD directory`
 
 Create a new directory. The directory must be a string.
@@ -206,10 +210,6 @@ Search the DATA after the given label. If label 0 then start the search from beg
 ## `RETURN`
 
 Leave a subroutine and go to after the calling GOSUB command.
-
-## `STRLEN length`
-
-Set the standard length that reserve when a string was created new. The standard length at start a program is 20.
 
 ## `SWAP variable 1,variable 2`
 
