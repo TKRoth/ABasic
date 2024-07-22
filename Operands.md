@@ -28,6 +28,10 @@ Test if value 1 less or equal value 2. Then it results TRUE otherwise FALSE.
 
 Combine both values with logical AND.
 
+## `testchar IN charlist`
+
+Test if testchar, given as a string with minum one char, present in the charlist.
+
 ## `value 1 OR value 2`
 
 Combine both values with logical OR.
