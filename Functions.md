@@ -16,6 +16,10 @@ Result a string with the binary value of the given nummber.
 
 Result a string with a character with the the given ascii number.
 
+## `CONCAT$(string1,string2)`
+
+Connect both strings to one and result it.
+
 ## `DAY`
 
 Result the day from the internel RTC.
@@ -23,6 +27,10 @@ Result the day from the internel RTC.
 ## `FALSE`
 
 Send the false value = $000000.
+
+## `FINDANY(searchchar,searchlist)`
+
+Test if the searchchar, given as a string, present in the searchlist.
 
 ## `FREE`
 
@@ -55,6 +63,14 @@ Result the maximum adress of the user RAM.
 ## `HOUR`
 
 Result the hour from the internal RTC.
+
+## `INKEY$`
+
+Result a key input. If not key available, it results an empty string.
+
+## `INPUT$(length)`
+
+Force an user input with maximum length chars. Escape results an empty string.
 
 ## `INSTR(string,ascii)`
 
