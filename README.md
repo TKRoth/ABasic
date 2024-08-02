@@ -110,7 +110,7 @@ Variables can defined with an ID character. This is the last char of the vraiabl
 
 |**ID**|**Type**|**Data size**|**Range**|
 |------|--------|-------------|---------|
-|´[|]´|Byte|1|0 - 255|[^1]
+|´Vertival line´|Byte|1|0 - 255|[^1]
 |´§´|Word|2|0 - 65535|[^1]
 |´%´|Integer|0 - 16777215|
 |´!´|Floating point|-1e-38 - 1e37|[^1]
