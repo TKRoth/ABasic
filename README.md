@@ -104,6 +104,20 @@ ABasic has an extensive range of commands. You can view these in the files below
 [Errors](/Errors.md)
 
 
+## Vriable types
+
+Variables can defined with an ID character. This is the last char of the vraiable name and define with type the variable is. Without a character it define the variable as integer.
+
+|**ID**|**Type**|**Data size**|**Range**|
+|------|--------|-------------|---------|
+|´|´|Byte|1|0 - 255|[^1]
+|´§´|Word|2|0 - 65535|[^1]
+|´%´|Integer|0 - 16777215|
+|´!´|Floating point|-1e-38 - 1e37|[^1]
+|´$´|String|0 - 255 chars|
+[^1]: This data format is not yet implemented
+
+
 ## Memory map
 
 A(gon)Basic uses any memory areas. In the follow table you can see which areas are exist:
