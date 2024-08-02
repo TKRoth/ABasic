@@ -104,17 +104,18 @@ ABasic has an extensive range of commands. You can view these in the files below
 [Errors](/Errors.md)
 
 
-## Vriable types
+## Variable types
 
 Variables can defined with an ID character. This is the last char of the vraiable name and define with type the variable is. Without a character it define the variable as integer.
 
 |**ID**|**Type**|**Data size**|**Range**|
 |------|--------|-------------|---------|
-|Vertival line|Byte [^1]|1|0 - 255|
+|Vertical line|Byte [^1]|1|0 - 255|
 |§|Word [^1]|2|0 - 65535|
 |%|Integer|3|0 - 16777215|
 |!|Floating point [^1]|4|-1e-38 - 1e37|
 |$|String|2 + Length of string|0 - 255 chars|
+
 [^1]: This data format is not yet implemented
 
 
